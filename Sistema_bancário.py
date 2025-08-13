@@ -44,7 +44,7 @@ while True:
                     extrato += [f"Saque no valor de R${valor_saque:.2f} - Saldo: R${saldo:.2f}"]
                     print(f"Saque no valor de R${valor_saque:.2f} realizado com sucesso!")
                 else:
-                    print("Valor invalido, tente novamente.")
+                    print("Saldo Insuficiente.")
             except ValueError:
                 print("Opção invalida, tente novamente.")
     elif opcao == "e":
